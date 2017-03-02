@@ -96,7 +96,7 @@ static int open_device(const char *devname)
 		return -1;
 	}
 	
-#if 1
+#if 0
 	if ((retval = tcgetattr(h, &t)) < 0) {
 		perror("tcgetattr");
 		return -1;
